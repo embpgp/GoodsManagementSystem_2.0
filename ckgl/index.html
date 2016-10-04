@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>仓库管理系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!-- <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.4.2/css/amazeui.min.css"> -->
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="am-topbar am-g am-g-fixed">
+        <h1>
+            <a href="#">仓库管理系统</a>
+        </h1>
+    </header>
+    <div class="am-g am-g-fixed">
+        <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs">
+                <li class="am-active"><a href="#tab1">库存</a></li>
+                <li><a href="#tab2">出入库记录</a></li>
+            </ul>
+            <div class="am-tabs-bd">
+                <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                    <button class="am-btn am-btn-secondary am-btn-sm am-fr" type="button">刷新</button>
+                    <table class="am-table">
+                        <thead>
+                            <tr>
+                                <th>货物ID号</th>
+                                <th>货物便签ID</th>
+                                <th>货物名字</th>
+                                <th>货物价格</th>
+                                <th>货物库存量</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="am-tab-panel am-fade" id="tab2">
+                    <button class="am-btn am-btn-secondary am-btn-sm am-fr" type="button">刷新</button>
+                    区域：
+                    <select name="cate" id="cate">
+                        
+                    </select>
+                    <table class="am-table">
+                        <thead>
+                            <tr>
+                                <th>记录ID号</th>
+                                <th>货物名字</th>
+                                <th>货物价格</th>
+                                <th>进出货物量</th>
+                                <th>出入库类型</th>
+                                <th>出入库时间</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
+    <script src="http://cdn.amazeui.org/amazeui/2.4.2/js/amazeui.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/amazeui.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

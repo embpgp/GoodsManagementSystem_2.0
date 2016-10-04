@@ -1,0 +1,12 @@
+body{
+	background: #fbfbfb;
+}
+header{
+	height: 80px;
+	text-align: center;
+}
+
+header h1{
+	height: 80px;
+	line-height: 80px;
+}
